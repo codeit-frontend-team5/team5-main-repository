@@ -25,3 +25,7 @@ console.log(value + 1)
 console.log(0 == '0') // true
 console.log(0 === '0') // false
 ```
+
+### 정새론
+
+- for ... of문을 공부하면서 iterable 객체라는 것에 대해서 알게 되었습니다. iterable이라는 것은 배열을 일반화한 객체라는데, `Symbol.iterator`메서드만 추가하면 설사 키밸류쌍이 들어있는 객체라도 iterable하다는 것을 나타내는 것인가요? 그렇게 되면 Map 자료형과 같아지나요?
